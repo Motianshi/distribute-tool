@@ -1,14 +1,14 @@
 package com.anqi.distribute.zklock;
 
 import com.anqi.distribute.lock.Lock;
-import com.anqi.distribute.lock.zklock.curator.ZkLockWithCuratorTemplate;
+import com.anqi.distribute.lock.zklock.zksequen.ZkSequenTemplateLock;
 
 public class OrderServiceImpl {
 
     private static OrderNumberGenerator generator = new OrderNumberGenerator();
 //    Lock lock = new ZkTemplateLock();
-//    Lock lock = new ZkSequenTemplateLock();
-        Lock lock = new ZkLockWithCuratorTemplate();
+       Lock lock = new ZkSequenTemplateLock();
+//     Lock lock = new ZkLockWithCuratorTemplate();
     public void createOrder() {
         String orderNum = null;
         try {

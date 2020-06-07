@@ -16,7 +16,7 @@ public class ZkSequenTemplateLock extends AbstractTemplateLock {
     private static final int sessionTimeout = 8000;
     private static final int connectionTimeout = 5000;
 
-    private static final String lockPath = "/lockPath11";
+    private static final String lockPath = "/lockPath";
 
     private String beforePath;
     private String currentPath;

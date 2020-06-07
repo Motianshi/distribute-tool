@@ -21,6 +21,7 @@ public abstract class AbstractTemplateLock implements Lock {
 
     @Override
     public void unlock() {
+        System.out.println(21);
         releaseLock();
     }
 }
