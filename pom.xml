@@ -42,6 +42,13 @@
 			<groupId>com.101tec</groupId>
 			<artifactId>zkclient</artifactId>
 			<version>0.11</version>
+
+			<exclusions>
+			<exclusion>
+				<artifactId>slf4j-log4j12</artifactId>
+				<groupId>org.slf4j</groupId>
+			</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -59,12 +66,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 	</dependencies>
 
