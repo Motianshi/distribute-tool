@@ -7,6 +7,7 @@
 │  │  │  └─com
 │  │  │      └─anqi
 │  │  │          └─distribute
+│  │  │              ├─iputil 根据ip获取城市
 │  │  │              ├─lock
 │  │  │              │  └─zklock
 │  │  │              │      ├─curator   curator分布式锁实现
@@ -15,6 +16,7 @@
 │  │  │              └─sequencenumber
 │  │  │                  └─sequence  zookeeper 分布式自增id
 │  │  └─resources
+│  │      └─iputil 根据ip获取城市前端文件
 │  └─test
       └─java
           └─com
