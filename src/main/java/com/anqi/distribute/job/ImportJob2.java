@@ -1,0 +1,27 @@
+package com.anqi.distribute.job;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
+
+import java.time.LocalDateTime;
+
+@Configuration
+@EnableScheduling
+public class ImportJob2 {
+
+//    @Scheduled(fixedRate=5000)
+//    private void configureTasks() throws InterruptedException {
+//        Thread.sleep(1000);
+//        System.err.println("1执行静态定时任务时间: " + LocalDateTime.now());
+//    }
+//    @Scheduled(fixedRate=5000)
+//    private void configureTasks2() throws InterruptedException {
+//        Thread.sleep(10000);
+//        System.err.println("2执行静态定时任务时间: " + LocalDateTime.now());
+//    }
+    @Scheduled(fixedRate=1000)
+    public void configureTasks3() {
+        System.err.println(Thread.currentThread().getName()+"-4执行静态定时任务时间: " + LocalDateTime.now());
+    }
+}

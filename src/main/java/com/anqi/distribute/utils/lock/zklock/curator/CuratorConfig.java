@@ -1,4 +1,4 @@
-package com.anqi.distribute.lock.zklock.curator;
+package com.anqi.distribute.utils.lock.zklock.curator;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;

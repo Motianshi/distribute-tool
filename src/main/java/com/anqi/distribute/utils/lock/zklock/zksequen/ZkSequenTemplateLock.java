@@ -1,7 +1,7 @@
-package com.anqi.distribute.lock.zklock.zksequen;
+package com.anqi.distribute.utils.lock.zklock.zksequen;
 
 
-import com.anqi.distribute.lock.AbstractTemplateLock;
+import com.anqi.distribute.utils.lock.AbstractTemplateLock;
 import lombok.extern.slf4j.Slf4j;
 import org.I0Itec.zkclient.IZkDataListener;
 import org.I0Itec.zkclient.ZkClient;

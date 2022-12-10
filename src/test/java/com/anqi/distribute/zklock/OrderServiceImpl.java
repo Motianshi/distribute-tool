@@ -1,7 +1,7 @@
 package com.anqi.distribute.zklock;
 
-import com.anqi.distribute.lock.Lock;
-import com.anqi.distribute.lock.zklock.zksequen.ZkSequenTemplateLock;
+import com.anqi.distribute.utils.lock.Lock;
+import com.anqi.distribute.utils.lock.zklock.zksequen.ZkSequenTemplateLock;
 
 public class OrderServiceImpl {
 

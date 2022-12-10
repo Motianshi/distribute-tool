@@ -1,4 +1,4 @@
-package com.anqi.distribute.lock;
+package com.anqi.distribute.utils.lock;
 
 public interface Lock {
 

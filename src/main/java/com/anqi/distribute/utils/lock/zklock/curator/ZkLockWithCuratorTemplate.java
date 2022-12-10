@@ -1,6 +1,6 @@
-package com.anqi.distribute.lock.zklock.curator;
+package com.anqi.distribute.utils.lock.zklock.curator;
 
-import com.anqi.distribute.lock.Lock;
+import com.anqi.distribute.utils.lock.Lock;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;
